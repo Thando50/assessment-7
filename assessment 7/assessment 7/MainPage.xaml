@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="assessment_7.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Green" Padding="14" CornerRadius="0">
+            <Label Text="WhatsApp" HorizontalTextAlignment="Start" TextColor="White" FontSize="37"/>
+        </Frame>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                
+                
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <BoxView Color="Green" />
+            <Button Text="chats"
+                    Clicked="Button_Clicked_1"
+                    BackgroundColor="Green"
+                     
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <BoxView Grid.Column="1"
+                 Color="Green" />
+            <Button Grid.Column="1"
+               Text="status"
+                    Clicked="Button_Clicked_2"
+                    BackgroundColor="Green"
+               VerticalOptions="Center" />
+            <BoxView Grid.Column="2"
+                 Color="Green" />
+            <Button Grid.Column="2"
+               Text="calls"
+                    Clicked="Button_Clicked"
+                    BackgroundColor="Green"
+                    
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            
+        </Grid>
+        
+        <StackLayout>
+            <Frame BackgroundColor="White">
+                <Label Text="Dele" TextColor="Green" HorizontalTextAlignment="Start"/>
+            </Frame>
+
+            <Frame BackgroundColor="White">
+                <Label Text="Mike" TextColor="Green" HorizontalTextAlignment="Start"/>
+            </Frame>
+
+            <Frame BackgroundColor="White">
+                <Label Text="Thando" TextColor="Green" HorizontalTextAlignment="Start"/>
+            </Frame>
+
+
+            
+
+        </StackLayout>
+                
+    </StackLayout>
+
+
+
+
+</ContentPage>
+
+    
